@@ -29,9 +29,13 @@ var webpackConfig = {
 			template: 'src/assets/test.html'
 		}),
 		new HtmlWebpackPlugin({
-			filename: 'home.html',
-			template: 'src/assets/home.html'
-		})
+			filename: 'homepage.html',
+			template: 'src/assets/homepage.html'
+		}),
+    new HtmlWebpackPlugin({
+      filename: 'single.html',
+      template: 'src/assets/single.html'
+    })
 	]
 };
 
