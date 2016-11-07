@@ -4,7 +4,9 @@ This repository contains in-browser protoypes, wireframes and other assets for t
 
 The `master` branch is published to https://hackshackers.github.io/hh-prototypes/.
 
-You can see a listing of available prototype for review at https://hackshackers.github.io/hh-prototypes/prototype/dist/
+You can see a listing of available prototype for review at:
+
+https://hackshackers.github.io/hh-prototypes/prototype/dist/index.html
 
 ## Development
 
