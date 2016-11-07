@@ -1,4 +1,10 @@
 var HtmlWebpackPlugin = require('html-webpack-plugin');
+var fs = require('fs-extra');
+
+// Remove existing build directory
+if (process.env.BUILD) {
+  fs.removeSync('./dist');
+}
 
 var webpackConfig = {
   entry: [
@@ -23,16 +29,20 @@ var webpackConfig = {
     ]
   },
   plugins: [
-    new HtmlWebpackPlugin(), //generate index.html
+    new HtmlWebpackPlugin({
+      filename: 'index.html',
+      title: 'Template listing',
+      template: './src/assets/_wrapper.html'
+    }),
     new HtmlWebpackPlugin({
       filename: 'homepage.html',
       title: 'Homepage',
-      template: './src/assets/index.html'
+      template: './src/assets/_wrapper.html'
     }),
     new HtmlWebpackPlugin({
       filename: 'single.html',
       title: 'Single Page',
-      template: './src/assets/index.html'
+      template: './src/assets/_wrapper.html'
     })
   ]
 };
