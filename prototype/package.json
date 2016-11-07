@@ -2,7 +2,7 @@
   "name": "hacks-hackers",
   "version": "0.0.1",
   "scripts": {
-    "build": "webpack --optimize-minimize",
+    "build": "BUILD=true webpack --optimize-minimize",
     "start": "webpack-dev-server"
   },
   "devDependencies": {

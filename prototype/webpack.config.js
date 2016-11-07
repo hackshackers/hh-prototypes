@@ -7,17 +7,17 @@ var webpackConfig = {
   ],
   output: {
     path: './dist',
-    publicPath: "/assets/",
+    publicPath: process.env.BUILD ? '' : '/assets/',
     filename: 'index_bundle.js'
   },
   module: {
     loaders: [
       {
-        loader: "babel-loader",
+        loader: 'babel-loader',
         test: /\.js$/
       },
       {
-        loaders: ["style", "css", "sass"],
+        loaders: ['style', 'css', 'sass'],
         test: /\.scss$/
       },
     ]
