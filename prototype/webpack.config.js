@@ -26,11 +26,13 @@ var webpackConfig = {
     new HtmlWebpackPlugin(), //generate index.html
     new HtmlWebpackPlugin({
       filename: 'homepage.html',
-      template: 'src/assets/homepage.html'
+      title: 'Homepage',
+      template: './src/assets/index.html'
     }),
     new HtmlWebpackPlugin({
       filename: 'single.html',
-      template: 'src/assets/single.html'
+      title: 'Single Page',
+      template: './src/assets/index.html'
     })
   ]
 };
