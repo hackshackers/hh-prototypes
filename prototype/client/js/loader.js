@@ -1,1 +1,1 @@
-console.info("ayo, webpack sup bruh?");
+console.info('webpack loaded');
