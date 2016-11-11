@@ -43,6 +43,11 @@ var webpackConfig = {
       filename: 'single.html',
       title: 'Single Page',
       template: './src/assets/_wrapper.html'
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'styletile1.html',
+      title: 'Style Tile',
+      template: './src/assets/_wrapper.html'
     })
   ]
 };
