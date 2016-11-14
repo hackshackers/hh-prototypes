@@ -1,5 +1,6 @@
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var fs = require('fs-extra');
+var path = require('path');
 
 // Remove existing build directory
 if (process.env.BUILD) {
@@ -12,7 +13,7 @@ var webpackConfig = {
     './client/sass/screen.scss'
   ],
   output: {
-    path: './dist',
+    path: path.join(__dirname, '/dist'),
     publicPath: '',
     filename: 'index_bundle.js'
   },

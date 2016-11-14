@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "build": "BUILD=true webpack --optimize-minimize",
-    "start": "webpack-dev-server"
+    "start": "node server.js"
   },
   "devDependencies": {
     "babel-core": "^6.18.2",
