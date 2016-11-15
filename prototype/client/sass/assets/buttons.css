@@ -1,5 +1,4 @@
 .btn {
-    background-color: #00BBEF;
     cursor: pointer;
     display: inline-table;
     font-weight: 700;
@@ -123,4 +122,25 @@
     position: absolute;
     right: 10px;
     top: 50%;
+}
+
+.demo .btn-cta {
+    background-color: transparent;
+    border-radius: 0;
+    color: #D84315;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    font-weight: 600;
+}
+
+.demo .btn-cta:hover {
+    color: #ffffff;
+    background-color: #D84315;
+}
+
+.demo .btn-cta > span {
+    text-shadow: none;
+    padding: 10px 15px 7px;
 }
