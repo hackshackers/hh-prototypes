@@ -29,13 +29,6 @@ section {
   margin-left: -15px;
   margin-right: -15px;
 }
-[class*="col-"] {
-  position: relative;
-  float: left;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
 
 .col-lg-12 {
   width: 100%;

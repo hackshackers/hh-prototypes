@@ -301,16 +301,6 @@ section.demo-link a:hover {
 
 .demo { padding: 0 55px; }
 
-@media (min-width: 1280px ) {
-
-}
-
-
-@media (max-width: 979px ) {
-
-}
-
-
-@media (max-width: 659px ) {
-
+.color-swatches .row-styletile {
+	display: flex;
 }

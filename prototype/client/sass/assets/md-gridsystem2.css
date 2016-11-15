@@ -1,21 +1,8 @@
 @charset "UTF-8";
-@media (max-width: 979px) {	
+@media (max-width: 979px) {
 	/* grid -------------------------------- */
 	.container {
 		padding: 0 10px;
-	}
-	.row {
-	  margin-left: -10px;
-	  margin-right: -10px;
-	}
-	[class*="col-"] {
-	  padding-left: 10px;
-	  padding-right: 10px;
-	}
-	
-	[class*="col-lg"] {
-	   width: 100%;
-	   position: relative;
 	}
 	.col-md-12 {
 	  width: 100%;
@@ -53,7 +40,7 @@
 	.col-md-1 {
 	  width: 8.33333333%;
 	}
-	
+
 	/* pull */
 	[class*="col-lg-pull-"] {
 	right: 0;
@@ -97,7 +84,7 @@
 	.col-md-pull-0 {
 	right: 0%;
 	}
-	
+
 	/* push */
 	[class*="col-lg-push-"] {
 	left: 0;
@@ -141,7 +128,7 @@
 	.col-md-push-0 {
 	left: 0%;
 	}
-	
+
 	/* offset */
 	[class*="col-lg-offset-"] {
 	margin-left: 0;
