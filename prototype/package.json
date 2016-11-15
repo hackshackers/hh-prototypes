@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "build": "BUILD=true webpack --optimize-minimize",
-    "start": "node server.js"
+    "start": "WATCH=true BUILD=true webpack --optimize-minimize"
   },
   "devDependencies": {
     "babel-core": "^6.18.2",
@@ -20,8 +20,7 @@
     "sass-loader": "^4.0.2",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
-    "webpack": "^1.13.3",
-    "webpack-dev-server": "^1.14.1"
+    "webpack": "^1.13.3"
   },
   "dependencies": {
     "jquery": "^3.1.0"

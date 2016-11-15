@@ -10,8 +10,14 @@ https://hackshackers.github.io/hh-prototypes/prototype/dist/index.html
 
 ## Development
 
-`$ npm start` then...
+`$ cd prototype/ && npm start`
 
-* [http://localhost:8080/assets/homepage.html](http://localhost:8080/assets/homepage.html)
-* [http://localhost:8080/assets/single.html](http://localhost:8080/assets/single.html)
-* etc.
+Webpack watches `prototype/client` and `prototype/src` for changes, and regenerates the files in `prototype/dist` accordingly.
+
+To view the generated static pages in your browser, open a file system URL like:
+
+```
+file:///Users/yourname/projects/hh-prototypes/prototype/dist/homepage.html
+```
+
+Then reload the page as you make changes.

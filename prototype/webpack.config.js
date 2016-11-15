@@ -8,6 +8,7 @@ if (process.env.BUILD) {
 }
 
 var webpackConfig = {
+  watch: !!process.env.WATCH,
   entry: [
     './client/js/loader.js',
     './client/sass/screen.scss'
