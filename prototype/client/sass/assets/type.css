@@ -821,13 +821,14 @@ p a:hover {
 .document-info-4 .demo .btn-cta {
 	background-color: #007FDE;
 	border-bottom: 2px solid #1E1146;
+	border-radius: 40.03px;
 	color: #FFFFFF;
 	font-family: 'Helvetica', sans-serif;
 	font-size: 1.45rem;
 	text-transform: uppercase;
 	letter-spacing: 0.07em;
 	font-weight: 700;
-}
+}	
 .document-info-4 .demo .btn-cta:hover {
 	color: #fff;
   background-color: #007FDE;
