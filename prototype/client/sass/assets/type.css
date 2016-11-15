@@ -828,8 +828,13 @@ p a:hover {
 	text-transform: uppercase;
 	letter-spacing: 0.07em;
 	font-weight: 700;
-}	
+}
 .document-info-4 .demo .btn-cta:hover {
 	color: #fff;
   background-color: #007FDE;
+}
+
+.module-color {
+	font-size: 15px;
+	color: #B7B4B0;
 }
