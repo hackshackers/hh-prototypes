@@ -18,11 +18,11 @@ section {
   margin: 0 auto;
   padding: 0 15px;
 }
-.container:after, .container:before, .row:before, .row:after, .clearfix:before, .clearfix:after, footer:before, footer:after, [class*="col-"] > div:before, [class*="col-"] > div:after {
+.container:after, .container:before, .row-styletile:before, .row-styletile:after, .clearfix:before, .clearfix:after, footer:before, footer:after, [class*="col-"] > div:before, [class*="col-"] > div:after {
   content: "";
   display: table;
 }
-.container:after, .row:after, .clearfix:after, .clearfix:before, [class*="col-"] > div:after {
+.container:after, .row-styletile:after, .clearfix:after, .clearfix:before, [class*="col-"] > div:after {
   clear: both
 }
 .row-styletile {
